@@ -11,10 +11,22 @@ Este projeto implementa a arquitetura Medalhão (Bronze, Silver, Gold) para proc
 * **Armazenamento:** Delta Lake
 * **APIs:** OMDb API
 
+## 🎯 Objetivos de Análise (Requisitos de Negócio)
+
+Este Data Warehouse foi projetado para responder às seguintes perguntas de negócio:
+
+1.  **Análise de Risco por Gênero e Público-Alvo:** Qual a bilheteria média de filmes mal avaliados nos gêneros 'Terror' e 'Comédia' com mais de 10k votos, segmentada por ano de lançamento e por classificação indicativa?
+2.  **Análise de Padrões de Fracasso de Diretores:** Quais são os diretores que, na última década, dirigiram 3 ou mais filmes de um mesmo gênero com avaliação inferior a 6.0? Para estes diretores, qual foi a evolução da nota média de seus filmes nesse gênero específico, ano a ano?
+3.  **Análise de Sinergia Criativa:** Quais são as duplas de diretor e roteirista que mais trabalharam juntas em filmes de baixo desempenho?
+
 ## 🚀 Como Executar no Databricks
 1. Importe o notebook `ETL_imdb.ipynb` para o seu workspace do Databricks.
 2. Configure um Secret Scope chamado `chaves_api` e adicione suas chaves da OMDb.
 3. Anexe o notebook a um cluster rodando Databricks Runtime com suporte a Spark 3.x.
+
+## 👥 Autores
+* Pedro Andrade Dorighello
+* Jean Lucas Rocha dos Santos
 
 ## Diagrama do Modelo Dimensional
 ![Diagrama do DW](https://i.imgur.com/QYYW3Fr.png)
@@ -22,7 +34,4 @@ Este projeto implementa a arquitetura Medalhão (Bronze, Silver, Gold) para proc
 ## Diagrama de Fluxo do Pipeline ETL
 ![Pipeline ETL](https://i.imgur.com/9rGWguF.png")
 
-## 👥 Autores
-* Pedro Andrade Dorighello
-* Jean Lucas Rocha dos Santos
 
