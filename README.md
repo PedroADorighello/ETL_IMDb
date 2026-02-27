@@ -21,3 +21,7 @@ Este projeto implementa a arquitetura Medalhão (Bronze, Silver, Gold) para proc
 
 ## Diagrama de Fluxo do Pipeline ETL
 ![Pipeline ETL](https://i.imgur.com/9rGWguF.png")
+
+## 👥 Aturores
+* Pedro Andrade Dorighello
+* Jean Lucas Rocha dos Santos
