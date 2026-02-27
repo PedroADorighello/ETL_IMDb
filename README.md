@@ -15,4 +15,9 @@ Este projeto implementa a arquitetura Medalhão (Bronze, Silver, Gold) para proc
 1. Importe o notebook `ETL_imdb.ipynb` para o seu workspace do Databricks.
 2. Configure um Secret Scope chamado `chaves_api` e adicione suas chaves da OMDb.
 3. Anexe o notebook a um cluster rodando Databricks Runtime com suporte a Spark 3.x.
-4. Execute as células sequencialmente.
+
+## Diagrama do Modelo Dimensional
+![Diagrama do DW](https://i.imgur.com/QYYW3Fr.png)
+
+## Diagrama de Fluxo do Pipeline ETL
+![Pipeline ETL](https://i.imgur.com/9rGWguF.png")
